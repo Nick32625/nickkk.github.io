@@ -7,58 +7,39 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+Current position
+====
+
+**Algorithm Engineer, Alibaba Cloud · Shanghai**
+
+Research and engineering for coding agents, with a focus on agent post-training.
 
 Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+====
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+**East China Normal University (ECNU) · Shanghai · 2019–2026**
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+Bachelor's and Master's studies in Software Engineering
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+Advisor: [Prof. Guitao Cao](https://faculty.ecnu.edu.cn/_s43/cgt/main.psp)
+
+Experience
+====
+
+- Algorithm Engineer, Alibaba Cloud
+- Algorithm Intern, Alibaba Cloud
+- Algorithm Intern, Meituan
+
+Research interests
+====
+
+- Coding and software engineering agents
+- Post-training for large language models and agents
+- Reinforcement learning and preference optimization
+- Web and GUI agents
+- Knowledge distillation
 
 Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+====
+
+See my [publications]({{ '/publications/' | relative_url }}) and [Google Scholar profile](https://scholar.google.com/citations?user=TFnbt7kAAAAJ).

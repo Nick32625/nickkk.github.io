@@ -5,32 +5,17 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<p class="page-intro">My latest publication record is also available on <a href="https://scholar.google.com/citations?user=TFnbt7kAAAAJ">Google Scholar</a>.</p>
 
-{% include base_path %}
+<h2>2026</h2>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
+<div class="publication-list">
+  <article class="publication-item"><h3>GUI-ARP: Enhancing Grounding with Adaptive Region Perception for GUI Agents</h3><p>X. Ye, Y. Li, W. Dai, M. Liu, <strong>Z. Chen</strong>, Z. Han, H. Min, J. Ren, X. Zhang, W. Yang, et al.</p><p class="publication-venue">IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2026.</p></article>
+  <article class="publication-item"><h3>TGPO: Tree-Guided Preference Optimization for Robust Web Agent Reinforcement Learning</h3><p><strong>Z. Chen</strong>, Z. Zhao, Z. Han, M. Liu, X. Ye, Y. Li, H. Min, J. Ren, X. Zhang, G. Cao.</p><p class="publication-venue">IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2026.</p></article>
+  <article class="publication-item"><h3>MT-CSD: Multi-Trajectory Consensus Self-Distillation for Robust Web Agents Learning</h3><p><strong>Z. Chen</strong>, J. Li, Y. Yang, J. Yang, G. Cao.</p><p class="publication-venue">29th International Conference on Computer Supported Cooperative Work in Design (CSCWD), 2026.</p></article>
+  <article class="publication-item"><h3>DATKD: Decoupled Attention Transfer Knowledge Distillation for Vision Transformers</h3><p><strong>Z. Chen</strong>, X. Zhou, S. Wang, C. Chen, Y. Li, G. Cao.</p><p class="publication-venue">IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2026.</p></article>
+  <article class="publication-item"><h3>ZKPoFL: Zero-Knowledge Proof of Federated Learning for Cross-Silo Healthcare Collaboration with Consortium Blockchain</h3><p>Y. Yang, <strong>Z. Chen</strong>, J. Yang, J. Li.</p><p class="publication-venue">29th International Conference on Computer Supported Cooperative Work in Design (CSCWD), 2026.</p></article>
+  <article class="publication-item"><h3>SEVER: Secure and Efficient Verifiable Credential Expiration and Revocation for Decentralized Crowdsourcing Identity</h3><p>J. Li, Y. Yang, J. Yang, <strong>Z. Chen</strong>.</p><p class="publication-venue">29th International Conference on Computer Supported Cooperative Work in Design (CSCWD), 2026.</p></article>
+  <article class="publication-item"><h3>MORAL5D: A Five-Dimensional Human-Centered Method for Evaluating and Enhancing LLM Moral Reasoning</h3><p>S. Wang, Y. Li, G. Cao, X. Xi, <strong>Z. Chen</strong>, C. Chen.</p><p class="publication-venue">IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2026.</p></article>
+</div>
 

@@ -8,9 +8,29 @@
 <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png" sizes="32x32"/>
 <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-192x192.png" sizes="192x192"/>
 <link rel="manifest" href="{{ base_path }}/images/manifest.json"/>
-<link rel="icon" href="/images/favicon.ico"/>
+<link rel="icon" href="{{ base_path }}/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
+
+<style>
+  :root { --accent: #1769aa; --ink: #243142; --muted: #65758b; }
+  body { color: var(--ink); }
+  .masthead { border-bottom: 1px solid #e8edf3; }
+  .page__title { letter-spacing: -0.025em; }
+  .page__content { font-size: 0.98rem; line-height: 1.75; }
+  .page__content h2 { margin-top: 2rem; padding-bottom: .4rem; border-bottom: 1px solid #e8edf3; }
+  .page__content a { color: var(--accent); }
+  .author__bio { color: var(--muted); line-height: 1.55; }
+  .page-intro { color: var(--muted); margin-bottom: 1.7rem; }
+  .publication-item { margin: 0 0 1.65rem; padding: 0 0 1.35rem; border-bottom: 1px solid #edf1f5; }
+  .publication-item h3 { margin: 0 0 .45rem; font-size: 1.05rem; line-height: 1.45; }
+  .publication-item p { margin: .25rem 0; line-height: 1.55; }
+  .publication-venue { color: var(--muted); font-style: italic; }
+  @media (max-width: 768px) {
+    .page__content { font-size: 1rem; line-height: 1.72; }
+    .publication-item h3 { font-size: 1.04rem; }
+  }
+</style>
 
 
 <!-- Support for MatJax -->
